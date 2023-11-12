@@ -1,8 +1,9 @@
 .header {
-    padding: 50px 92px;
+    padding: 90px 50px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);  
     align-items: center;
+
 }
 
 .header__menu {
@@ -14,7 +15,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 25px;
+    gap: 32px;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 21px;
     list-style: circle;
     height: 100%; 
 }
@@ -43,6 +47,8 @@
     white-space: nowrap;
     font-family: Raleway, Arial, sans-serif;
     font-style: normal;
+    font-size: 18px;
+    line-height: 24.3px;
 }
 
 .cover {
@@ -71,7 +77,7 @@
     font-size: 100px;
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 115px;
+    line-height: 100px;
     letter-spacing: 30px;
     margin-bottom: 135px;
     position: relative;
@@ -80,14 +86,17 @@
 
 .aligned-text {
     display: block;
+    margin-bottom: 28px;
 }
 
 .aligned-text_center {
     text-align: center;
+    margin-right: 40px;
 }
 
-.aligned-text_right {
+.aligned-text_right  {
     text-align: right;
+    margin-bottom: 20px;
 }
 
 .aligned-text_right-last-letter {
@@ -147,7 +156,6 @@
     flex-flow: row wrap;
     list-style: none;
     gap: 25px;
-    max-width: 1440px;
     min-width: 1100px;
     margin-bottom: 30px;
   }
@@ -170,8 +178,13 @@
     background-size: cover;
   }
 
+.card-link {
+    text-decoration: none;
+}
+
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
+    
 }
 
 .card_type_book {
@@ -206,6 +219,8 @@
 
 .lots__look-more-link {
     padding-left: 40px;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 20px;
 }
 
 .about {
@@ -246,7 +261,7 @@
 .about__text {
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 28px;
     color: #000;
     font-family: Raleway, Arial, sans-serif;
     font-size: 20px;
@@ -256,7 +271,7 @@
 }
 
 .footer {
-    padding: 50px 92px;
+    padding: 8px 50px 92px 50px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 }
@@ -264,6 +279,8 @@
 .footer__menu {
     grid-column-start: 3;
     grid-column-end: 5;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 18px;
 }
 
 .footer__menu-list {
